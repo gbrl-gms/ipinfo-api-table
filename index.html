@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IP API</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" />
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="container mt-5">
+    <div class="card">
+      <div class="card-body">
+        <h1 class="text-center font-weight-bold">IP API</h1>
+        <hr>
+
+        <div class="form-row mb-3">
+          <div class="col-md-9">
+            <input id="inputIp" type="text" class="form-control" placeholder="8.8.8.8">
+          </div>
+          <div class="col-md-3">
+            <button id="btnPesquisar" class="btn btn-success w-100">Pesquisar</button>
+          </div>
+        </div>
+
+        <table class="table" id="tabelaIps">
+          <thead>
+            <tr>
+              <th>IP</th>
+              <th>Org</th>
+              <th>Country</th>
+              <th>City</th>
+              <th>Clear</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
